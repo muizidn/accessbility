@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ScreenTranslate/ScreenTranslate.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MZElementInspector/MZElementInspector.xcodeproj">
    </FileRef>
    <FileRef
