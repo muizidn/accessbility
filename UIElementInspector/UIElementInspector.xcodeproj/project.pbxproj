@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531161670B5EE645008CDA8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		531161680B5EE645008CDA8F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5656FB80209D1C201CA1586 /* Carbon.framework */; };
+		A7C768C123B5AAD8002CD05A /* UIElementUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768A623B5AAD7002CD05A /* UIElementUtilities.m */; };
+		A7C768C223B5AAD8002CD05A /* HighlightWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768A723B5AAD7002CD05A /* HighlightWindowController.h */; };
+		A7C768C423B5AAD8002CD05A /* InteractionWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768AA23B5AAD7002CD05A /* InteractionWindow.xib */; };
+		A7C768C523B5AAD8002CD05A /* DescriptionInspectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768AC23B5AAD7002CD05A /* DescriptionInspectorWindow.xib */; };
+		A7C768C623B5AAD8002CD05A /* InspectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768AE23B5AAD7002CD05A /* InspectorWindow.xib */; };
+		A7C768C723B5AAD8002CD05A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7C768B023B5AAD7002CD05A /* InfoPlist.strings */; };
+		A7C768C823B5AAD8002CD05A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768B223B5AAD7002CD05A /* MainMenu.xib */; };
+		A7C768C923B5AAD8002CD05A /* InteractionWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768B423B5AAD7002CD05A /* InteractionWindowController.m */; };
+		A7C768CA23B5AAD8002CD05A /* InspectorWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768B523B5AAD7002CD05A /* InspectorWindowController.h */; };
+		A7C768CB23B5AAD8002CD05A /* AccessibilityInspector.icns in Resources */ = {isa = PBXBuildFile; fileRef = A7C768B623B5AAD7002CD05A /* AccessibilityInspector.icns */; };
+		A7C768CC23B5AAD8002CD05A /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768B723B5AAD7002CD05A /* AppDelegate.h */; };
+		A7C768CD23B5AAD8002CD05A /* HighlightWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768B823B5AAD7002CD05A /* HighlightWindowController.m */; };
+		A7C768CE23B5AAD8002CD05A /* DescriptionInspectorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768B923B5AAD7002CD05A /* DescriptionInspectorWindowController.m */; };
+		A7C768CF23B5AAD8002CD05A /* DescriptionInspectorWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768BA23B5AAD7002CD05A /* DescriptionInspectorWindowController.h */; };
+		A7C768D023B5AAD8002CD05A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768BB23B5AAD7002CD05A /* main.m */; };
+		A7C768D123B5AAD8002CD05A /* UIElementUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768BC23B5AAD7002CD05A /* UIElementUtilities.h */; };
+		A7C768D223B5AAD8002CD05A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768BD23B5AAD7002CD05A /* AppDelegate.m */; };
+		A7C768D323B5AAD8002CD05A /* InteractionWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768BE23B5AAD7002CD05A /* InteractionWindowController.h */; };
+		A7C768D423B5AAD8002CD05A /* InspectorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768BF23B5AAD8002CD05A /* InspectorWindowController.m */; };
+		A7C768D523B5AAD8002CD05A /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A7C768C023B5AAD8002CD05A /* ReadMe.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5311616D0B5EE645008CDA8F /* Info-UIElementInspector.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-UIElementInspector.plist"; sourceTree = "<group>"; };
+		53C06DBF0B5FD78200FB5821 /* UIElementInspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElementInspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C768A623B5AAD7002CD05A /* UIElementUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIElementUtilities.m; sourceTree = "<group>"; };
+		A7C768A723B5AAD7002CD05A /* HighlightWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighlightWindowController.h; sourceTree = "<group>"; };
+		A7C768AB23B5AAD7002CD05A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = InteractionWindow.xib; sourceTree = "<group>"; };
+		A7C768AD23B5AAD7002CD05A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = DescriptionInspectorWindow.xib; sourceTree = "<group>"; };
+		A7C768AF23B5AAD7002CD05A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = InspectorWindow.xib; sourceTree = "<group>"; };
+		A7C768B123B5AAD7002CD05A /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		A7C768B323B5AAD7002CD05A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = MainMenu.xib; sourceTree = "<group>"; };
+		A7C768B423B5AAD7002CD05A /* InteractionWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionWindowController.m; sourceTree = "<group>"; };
+		A7C768B523B5AAD7002CD05A /* InspectorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorWindowController.h; sourceTree = "<group>"; };
+		A7C768B623B5AAD7002CD05A /* AccessibilityInspector.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AccessibilityInspector.icns; sourceTree = "<group>"; };
+		A7C768B723B5AAD7002CD05A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7C768B823B5AAD7002CD05A /* HighlightWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighlightWindowController.m; sourceTree = "<group>"; };
+		A7C768B923B5AAD7002CD05A /* DescriptionInspectorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionInspectorWindowController.m; sourceTree = "<group>"; };
+		A7C768BA23B5AAD7002CD05A /* DescriptionInspectorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionInspectorWindowController.h; sourceTree = "<group>"; };
+		A7C768BB23B5AAD7002CD05A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7C768BC23B5AAD7002CD05A /* UIElementUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIElementUtilities.h; sourceTree = "<group>"; };
+		A7C768BD23B5AAD7002CD05A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7C768BE23B5AAD7002CD05A /* InteractionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionWindowController.h; sourceTree = "<group>"; };
+		A7C768BF23B5AAD8002CD05A /* InspectorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorWindowController.m; sourceTree = "<group>"; };
+		A7C768C023B5AAD8002CD05A /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		F5656FB80209D1C201CA1586 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		531161660B5EE645008CDA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531161670B5EE645008CDA8F /* Cocoa.framework in Frameworks */,
+				531161680B5EE645008CDA8F /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				F5656FB80209D1C201CA1586 /* Carbon.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C06DBF0B5FD78200FB5821 /* UIElementInspector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AccessibilityTesting */ = {
+			isa = PBXGroup;
+			children = (
+				A7C768A523B5A985002CD05A /* Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				5311616D0B5EE645008CDA8F /* Info-UIElementInspector.plist */,
+			);
+			name = AccessibilityTesting;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7C768A523B5A985002CD05A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A7C768B623B5AAD7002CD05A /* AccessibilityInspector.icns */,
+				A7C768B723B5AAD7002CD05A /* AppDelegate.h */,
+				A7C768BD23B5AAD7002CD05A /* AppDelegate.m */,
+				A7C768BA23B5AAD7002CD05A /* DescriptionInspectorWindowController.h */,
+				A7C768B923B5AAD7002CD05A /* DescriptionInspectorWindowController.m */,
+				A7C768A923B5AAD7002CD05A /* English.lproj */,
+				A7C768A723B5AAD7002CD05A /* HighlightWindowController.h */,
+				A7C768B823B5AAD7002CD05A /* HighlightWindowController.m */,
+				A7C768B523B5AAD7002CD05A /* InspectorWindowController.h */,
+				A7C768BF23B5AAD8002CD05A /* InspectorWindowController.m */,
+				A7C768BE23B5AAD7002CD05A /* InteractionWindowController.h */,
+				A7C768B423B5AAD7002CD05A /* InteractionWindowController.m */,
+				A7C768BB23B5AAD7002CD05A /* main.m */,
+				A7C768C023B5AAD8002CD05A /* ReadMe.rtf */,
+				A7C768BC23B5AAD7002CD05A /* UIElementUtilities.h */,
+				A7C768A623B5AAD7002CD05A /* UIElementUtilities.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A7C768A923B5AAD7002CD05A /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A7C768AA23B5AAD7002CD05A /* InteractionWindow.xib */,
+				A7C768AC23B5AAD7002CD05A /* DescriptionInspectorWindow.xib */,
+				A7C768AE23B5AAD7002CD05A /* InspectorWindow.xib */,
+				A7C768B023B5AAD7002CD05A /* InfoPlist.strings */,
+				A7C768B223B5AAD7002CD05A /* MainMenu.xib */,
+			);
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		531161570B5EE645008CDA8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C768CA23B5AAD8002CD05A /* InspectorWindowController.h in Headers */,
+				A7C768D323B5AAD8002CD05A /* InteractionWindowController.h in Headers */,
+				A7C768C223B5AAD8002CD05A /* HighlightWindowController.h in Headers */,
+				A7C768D123B5AAD8002CD05A /* UIElementUtilities.h in Headers */,
+				A7C768CC23B5AAD8002CD05A /* AppDelegate.h in Headers */,
+				A7C768CF23B5AAD8002CD05A /* DescriptionInspectorWindowController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		531161560B5EE645008CDA8F /* UIElementInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531161690B5EE645008CDA8F /* Build configuration list for PBXNativeTarget "UIElementInspector" */;
+			buildPhases = (
+				531161570B5EE645008CDA8F /* Headers */,
+				5311615C0B5EE645008CDA8F /* Resources */,
+				531161600B5EE645008CDA8F /* Sources */,
+				531161660B5EE645008CDA8F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIElementInspector;
+			productInstallPath = "$(SYSTEM_DEVELOPER_UTILITIES_DIR)/Accessibility Tools/";
+			productName = AccessibilityTesting;
+			productReference = 53C06DBF0B5FD78200FB5821 /* UIElementInspector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 53B057F20B5EE5E2000896CD /* Build configuration list for PBXProject "UIElementInspector" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AccessibilityTesting */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				531161560B5EE645008CDA8F /* UIElementInspector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5311615C0B5EE645008CDA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C768C423B5AAD8002CD05A /* InteractionWindow.xib in Resources */,
+				A7C768C523B5AAD8002CD05A /* DescriptionInspectorWindow.xib in Resources */,
+				A7C768D523B5AAD8002CD05A /* ReadMe.rtf in Resources */,
+				A7C768C623B5AAD8002CD05A /* InspectorWindow.xib in Resources */,
+				A7C768C723B5AAD8002CD05A /* InfoPlist.strings in Resources */,
+				A7C768C823B5AAD8002CD05A /* MainMenu.xib in Resources */,
+				A7C768CB23B5AAD8002CD05A /* AccessibilityInspector.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		531161600B5EE645008CDA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C768D023B5AAD8002CD05A /* main.m in Sources */,
+				A7C768CE23B5AAD8002CD05A /* DescriptionInspectorWindowController.m in Sources */,
+				A7C768D223B5AAD8002CD05A /* AppDelegate.m in Sources */,
+				A7C768D423B5AAD8002CD05A /* InspectorWindowController.m in Sources */,
+				A7C768C923B5AAD8002CD05A /* InteractionWindowController.m in Sources */,
+				A7C768C123B5AAD8002CD05A /* UIElementUtilities.m in Sources */,
+				A7C768CD23B5AAD8002CD05A /* HighlightWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7C768AA23B5AAD7002CD05A /* InteractionWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C768AB23B5AAD7002CD05A /* English */,
+			);
+			name = InteractionWindow.xib;
+			sourceTree = "<group>";
+		};
+		A7C768AC23B5AAD7002CD05A /* DescriptionInspectorWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C768AD23B5AAD7002CD05A /* English */,
+			);
+			name = DescriptionInspectorWindow.xib;
+			sourceTree = "<group>";
+		};
+		A7C768AE23B5AAD7002CD05A /* InspectorWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C768AF23B5AAD7002CD05A /* English */,
+			);
+			name = InspectorWindow.xib;
+			sourceTree = "<group>";
+		};
+		A7C768B023B5AAD7002CD05A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C768B123B5AAD7002CD05A /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7C768B223B5AAD7002CD05A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C768B323B5AAD7002CD05A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5311616A0B5EE645008CDA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-UIElementInspector.plist";
+				INSTALL_PATH = "$(SYSTEM_DEVELOPER_UTILITIES_DIR)/Accessibility Tools/";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = UIElementInspector;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		5311616B0B5EE645008CDA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-UIElementInspector.plist";
+				INSTALL_PATH = "$(SYSTEM_DEVELOPER_UTILITIES_DIR)/Accessibility Tools/";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = UIElementInspector;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		53B057F30B5EE5E2000896CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = Debug;
+		};
+		53B057F40B5EE5E2000896CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		531161690B5EE645008CDA8F /* Build configuration list for PBXNativeTarget "UIElementInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5311616A0B5EE645008CDA8F /* Debug */,
+				5311616B0B5EE645008CDA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53B057F20B5EE5E2000896CD /* Build configuration list for PBXProject "UIElementInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B057F30B5EE5E2000896CD /* Debug */,
+				53B057F40B5EE5E2000896CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
