@@ -27,7 +27,6 @@
 		A7C768D223B5AAD8002CD05A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768BD23B5AAD7002CD05A /* AppDelegate.m */; };
 		A7C768D323B5AAD8002CD05A /* InteractionWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768BE23B5AAD7002CD05A /* InteractionWindowController.h */; };
 		A7C768D423B5AAD8002CD05A /* InspectorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768BF23B5AAD8002CD05A /* InspectorWindowController.m */; };
-		A7C768D523B5AAD8002CD05A /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A7C768C023B5AAD8002CD05A /* ReadMe.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +53,6 @@
 		A7C768BD23B5AAD7002CD05A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A7C768BE23B5AAD7002CD05A /* InteractionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionWindowController.h; sourceTree = "<group>"; };
 		A7C768BF23B5AAD8002CD05A /* InspectorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorWindowController.m; sourceTree = "<group>"; };
-		A7C768C023B5AAD8002CD05A /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 		F5656FB80209D1C201CA1586 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -133,7 +131,6 @@
 				A7C768BE23B5AAD7002CD05A /* InteractionWindowController.h */,
 				A7C768B423B5AAD7002CD05A /* InteractionWindowController.m */,
 				A7C768BB23B5AAD7002CD05A /* main.m */,
-				A7C768C023B5AAD8002CD05A /* ReadMe.rtf */,
 				A7C768BC23B5AAD7002CD05A /* UIElementUtilities.h */,
 				A7C768A623B5AAD7002CD05A /* UIElementUtilities.m */,
 			);
@@ -221,7 +218,6 @@
 			files = (
 				A7C768C423B5AAD8002CD05A /* InteractionWindow.xib in Resources */,
 				A7C768C523B5AAD8002CD05A /* DescriptionInspectorWindow.xib in Resources */,
-				A7C768D523B5AAD8002CD05A /* ReadMe.rtf in Resources */,
 				A7C768C623B5AAD8002CD05A /* InspectorWindow.xib in Resources */,
 				A7C768C823B5AAD8002CD05A /* MainMenu.xib in Resources */,
 				A7C768CB23B5AAD8002CD05A /* AccessibilityInspector.icns in Resources */,
