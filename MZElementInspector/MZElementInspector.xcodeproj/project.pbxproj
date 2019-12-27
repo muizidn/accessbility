@@ -15,10 +15,6 @@
 		A74C406023B629E700356CA2 /* UIElementUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768BC23B5AAD7002CD05A /* UIElementUtilities.h */; };
 		A74C406123B629E700356CA2 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768B723B5AAD7002CD05A /* AppDelegate.h */; };
 		A74C406223B629E700356CA2 /* DescriptionInspectorWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C768BA23B5AAD7002CD05A /* DescriptionInspectorWindowController.h */; };
-		A74C406423B629E700356CA2 /* InteractionWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768AA23B5AAD7002CD05A /* InteractionWindow.xib */; };
-		A74C406523B629E700356CA2 /* DescriptionInspectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768AC23B5AAD7002CD05A /* DescriptionInspectorWindow.xib */; };
-		A74C406623B629E700356CA2 /* InspectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768AE23B5AAD7002CD05A /* InspectorWindow.xib */; };
-		A74C406723B629E700356CA2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768B223B5AAD7002CD05A /* MainMenu.xib */; };
 		A74C406823B629E700356CA2 /* AccessibilityInspector.icns in Resources */ = {isa = PBXBuildFile; fileRef = A7C768B623B5AAD7002CD05A /* AccessibilityInspector.icns */; };
 		A74C406A23B629E700356CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768BB23B5AAD7002CD05A /* main.m */; };
 		A74C406B23B629E700356CA2 /* DescriptionInspectorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768B923B5AAD7002CD05A /* DescriptionInspectorWindowController.m */; };
@@ -29,6 +25,26 @@
 		A74C407023B629E700356CA2 /* HighlightWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C768B823B5AAD7002CD05A /* HighlightWindowController.m */; };
 		A74C407223B629E700356CA2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A74C407323B629E700356CA2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5656FB80209D1C201CA1586 /* Carbon.framework */; };
+		A74C408023B62D3800356CA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C407F23B62D3800356CA2 /* AppDelegate.swift */; };
+		A74C408923B6342C00356CA2 /* InteractionWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768AA23B5AAD7002CD05A /* InteractionWindow.xib */; };
+		A74C408A23B6342C00356CA2 /* DescriptionInspectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768AC23B5AAD7002CD05A /* DescriptionInspectorWindow.xib */; };
+		A74C408B23B6342C00356CA2 /* InspectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768AE23B5AAD7002CD05A /* InspectorWindow.xib */; };
+		A74C408C23B6342C00356CA2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C768B223B5AAD7002CD05A /* MainMenu.xib */; };
+		A74C40A323B6348A00356CA2 /* InteractionWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74C409B23B6348A00356CA2 /* InteractionWindow.xib */; };
+		A74C40A423B6348A00356CA2 /* DescriptionInspectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74C409D23B6348A00356CA2 /* DescriptionInspectorWindow.xib */; };
+		A74C40A523B6348A00356CA2 /* InspectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74C409F23B6348A00356CA2 /* InspectorWindow.xib */; };
+		A74C40A623B6348A00356CA2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74C40A123B6348A00356CA2 /* MainMenu.xib */; };
+		A74C40B223B6377F00356CA2 /* HighlightWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74C40A823B6377E00356CA2 /* HighlightWindowController.m */; };
+		A74C40B323B6377F00356CA2 /* DescriptionInspectorWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A74C40A923B6377E00356CA2 /* DescriptionInspectorWindowController.h */; };
+		A74C40B423B6377F00356CA2 /* InspectorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74C40AA23B6377F00356CA2 /* InspectorWindowController.m */; };
+		A74C40B523B6377F00356CA2 /* InteractionWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74C40AB23B6377F00356CA2 /* InteractionWindowController.m */; };
+		A74C40B623B6377F00356CA2 /* UIElementUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A74C40AC23B6377F00356CA2 /* UIElementUtilities.h */; };
+		A74C40B723B6377F00356CA2 /* HighlightWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A74C40AD23B6377F00356CA2 /* HighlightWindowController.h */; };
+		A74C40B823B6377F00356CA2 /* UIElementUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A74C40AE23B6377F00356CA2 /* UIElementUtilities.m */; };
+		A74C40B923B6377F00356CA2 /* InteractionWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A74C40AF23B6377F00356CA2 /* InteractionWindowController.h */; };
+		A74C40BA23B6377F00356CA2 /* InspectorWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A74C40B023B6377F00356CA2 /* InspectorWindowController.h */; };
+		A74C40BB23B6377F00356CA2 /* DescriptionInspectorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74C40B123B6377F00356CA2 /* DescriptionInspectorWindowController.m */; };
+		A74C40BE23B63BA200356CA2 /* AXError+debugDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C40BD23B63BA200356CA2 /* AXError+debugDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +52,27 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		5311616D0B5EE645008CDA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A74C405923B628DF00356CA2 /* Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74C405923B628DF00356CA2 /* SwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74C405A23B628DF00356CA2 /* Info-Objc.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Objc.plist"; path = "/Users/muis/Documents/go-workspace/src/github.com/muizidn/accessbility/MZElementInspector/Info-Objc.plist"; sourceTree = "<absolute>"; };
 		A74C407723B629E700356CA2 /* ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74C407823B629E700356CA2 /* Info-Swift.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Swift.plist"; path = "/Users/muis/Documents/go-workspace/src/github.com/muizidn/accessbility/MZElementInspector/Info-Swift.plist"; sourceTree = "<absolute>"; };
+		A74C407C23B62CD000356CA2 /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		A74C407F23B62D3800356CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74C409C23B6348A00356CA2 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = InteractionWindow.xib; sourceTree = "<group>"; };
+		A74C409E23B6348A00356CA2 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = DescriptionInspectorWindow.xib; sourceTree = "<group>"; };
+		A74C40A023B6348A00356CA2 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = InspectorWindow.xib; sourceTree = "<group>"; };
+		A74C40A223B6348A00356CA2 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = MainMenu.xib; sourceTree = "<group>"; };
+		A74C40A823B6377E00356CA2 /* HighlightWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighlightWindowController.m; sourceTree = "<group>"; };
+		A74C40A923B6377E00356CA2 /* DescriptionInspectorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionInspectorWindowController.h; sourceTree = "<group>"; };
+		A74C40AA23B6377F00356CA2 /* InspectorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorWindowController.m; sourceTree = "<group>"; };
+		A74C40AB23B6377F00356CA2 /* InteractionWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionWindowController.m; sourceTree = "<group>"; };
+		A74C40AC23B6377F00356CA2 /* UIElementUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIElementUtilities.h; sourceTree = "<group>"; };
+		A74C40AD23B6377F00356CA2 /* HighlightWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighlightWindowController.h; sourceTree = "<group>"; };
+		A74C40AE23B6377F00356CA2 /* UIElementUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIElementUtilities.m; sourceTree = "<group>"; };
+		A74C40AF23B6377F00356CA2 /* InteractionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionWindowController.h; sourceTree = "<group>"; };
+		A74C40B023B6377F00356CA2 /* InspectorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorWindowController.h; sourceTree = "<group>"; };
+		A74C40B123B6377F00356CA2 /* DescriptionInspectorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionInspectorWindowController.m; sourceTree = "<group>"; };
+		A74C40BD23B63BA200356CA2 /* AXError+debugDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AXError+debugDescription.swift"; sourceTree = "<group>"; };
 		A7C768A623B5AAD7002CD05A /* UIElementUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIElementUtilities.m; sourceTree = "<group>"; };
 		A7C768A723B5AAD7002CD05A /* HighlightWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighlightWindowController.h; sourceTree = "<group>"; };
 		A7C768AB23B5AAD7002CD05A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = InteractionWindow.xib; sourceTree = "<group>"; };
@@ -104,7 +137,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A74C405923B628DF00356CA2 /* Swift.app */,
+				A74C405923B628DF00356CA2 /* SwiftApp.app */,
 				A74C407723B629E700356CA2 /* ObjC.app */,
 			);
 			name = Products;
@@ -117,8 +150,6 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				5311616D0B5EE645008CDA8F /* Info.plist */,
-				A74C405A23B628DF00356CA2 /* Info-Objc.plist */,
-				A74C407823B629E700356CA2 /* Info-Swift.plist */,
 			);
 			name = AccessibilityTesting;
 			sourceTree = "<group>";
@@ -135,6 +166,8 @@
 		A74C407A23B62C5B00356CA2 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				A74C405A23B628DF00356CA2 /* Info-Objc.plist */,
+				A7C768A923B5AAD7002CD05A /* en.lproj */,
 				A7C768B723B5AAD7002CD05A /* AppDelegate.h */,
 				A7C768BD23B5AAD7002CD05A /* AppDelegate.m */,
 				A7C768BA23B5AAD7002CD05A /* DescriptionInspectorWindowController.h */,
@@ -152,12 +185,53 @@
 			path = ObjC;
 			sourceTree = "<group>";
 		};
+		A74C407B23B62CBC00356CA2 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A74C40BC23B637FC00356CA2 /* objc */,
+				A7C768B623B5AAD7002CD05A /* AccessibilityInspector.icns */,
+				A74C407823B629E700356CA2 /* Info-Swift.plist */,
+				A74C409A23B6348A00356CA2 /* id.lproj */,
+				A74C407C23B62CD000356CA2 /* Swift-Bridging-Header.h */,
+				A74C407F23B62D3800356CA2 /* AppDelegate.swift */,
+				A74C40BD23B63BA200356CA2 /* AXError+debugDescription.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		A74C409A23B6348A00356CA2 /* id.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A74C409B23B6348A00356CA2 /* InteractionWindow.xib */,
+				A74C409D23B6348A00356CA2 /* DescriptionInspectorWindow.xib */,
+				A74C409F23B6348A00356CA2 /* InspectorWindow.xib */,
+				A74C40A123B6348A00356CA2 /* MainMenu.xib */,
+			);
+			path = id.lproj;
+			sourceTree = "<group>";
+		};
+		A74C40BC23B637FC00356CA2 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				A74C40A923B6377E00356CA2 /* DescriptionInspectorWindowController.h */,
+				A74C40B123B6377F00356CA2 /* DescriptionInspectorWindowController.m */,
+				A74C40AD23B6377F00356CA2 /* HighlightWindowController.h */,
+				A74C40A823B6377E00356CA2 /* HighlightWindowController.m */,
+				A74C40B023B6377F00356CA2 /* InspectorWindowController.h */,
+				A74C40AA23B6377F00356CA2 /* InspectorWindowController.m */,
+				A74C40AF23B6377F00356CA2 /* InteractionWindowController.h */,
+				A74C40AB23B6377F00356CA2 /* InteractionWindowController.m */,
+				A74C40AC23B6377F00356CA2 /* UIElementUtilities.h */,
+				A74C40AE23B6377F00356CA2 /* UIElementUtilities.m */,
+			);
+			name = objc;
+			sourceTree = "<group>";
+		};
 		A7C768A523B5A985002CD05A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A7C768B623B5AAD7002CD05A /* AccessibilityInspector.icns */,
+				A74C407B23B62CBC00356CA2 /* Swift */,
 				A74C407A23B62C5B00356CA2 /* ObjC */,
-				A7C768A923B5AAD7002CD05A /* en.lproj */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -180,6 +254,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74C40B623B6377F00356CA2 /* UIElementUtilities.h in Headers */,
+				A74C40B323B6377F00356CA2 /* DescriptionInspectorWindowController.h in Headers */,
+				A74C40B723B6377F00356CA2 /* HighlightWindowController.h in Headers */,
+				A74C40BA23B6377F00356CA2 /* InspectorWindowController.h in Headers */,
+				A74C40B923B6377F00356CA2 /* InteractionWindowController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,9 +278,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A74C403D23B628DF00356CA2 /* Swift */ = {
+		A74C403D23B628DF00356CA2 /* SwiftApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A74C405623B628DF00356CA2 /* Build configuration list for PBXNativeTarget "Swift" */;
+			buildConfigurationList = A74C405623B628DF00356CA2 /* Build configuration list for PBXNativeTarget "SwiftApp" */;
 			buildPhases = (
 				A74C403E23B628DF00356CA2 /* Headers */,
 				A74C404523B628DF00356CA2 /* Resources */,
@@ -212,10 +291,10 @@
 			);
 			dependencies = (
 			);
-			name = Swift;
+			name = SwiftApp;
 			productInstallPath = "$(SYSTEM_DEVELOPER_UTILITIES_DIR)/Accessibility Tools/";
 			productName = AccessibilityTesting;
-			productReference = A74C405923B628DF00356CA2 /* Swift.app */;
+			productReference = A74C405923B628DF00356CA2 /* SwiftApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A74C405B23B629E700356CA2 /* ObjC */ = {
@@ -243,6 +322,11 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				TargetAttributes = {
+					A74C403D23B628DF00356CA2 = {
+						LastSwiftMigration = 1120;
+					};
+				};
 			};
 			buildConfigurationList = 53B057F20B5EE5E2000896CD /* Build configuration list for PBXProject "MZElementInspector" */;
 			compatibilityVersion = "Xcode 2.4";
@@ -252,12 +336,13 @@
 				en,
 				Base,
 				English,
+				id,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* AccessibilityTesting */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A74C403D23B628DF00356CA2 /* Swift */,
+				A74C403D23B628DF00356CA2 /* SwiftApp */,
 				A74C405B23B629E700356CA2 /* ObjC */,
 			);
 		};
@@ -268,6 +353,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74C40A423B6348A00356CA2 /* DescriptionInspectorWindow.xib in Resources */,
+				A74C40A323B6348A00356CA2 /* InteractionWindow.xib in Resources */,
+				A74C40A523B6348A00356CA2 /* InspectorWindow.xib in Resources */,
+				A74C40A623B6348A00356CA2 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +364,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74C406423B629E700356CA2 /* InteractionWindow.xib in Resources */,
-				A74C406523B629E700356CA2 /* DescriptionInspectorWindow.xib in Resources */,
-				A74C406623B629E700356CA2 /* InspectorWindow.xib in Resources */,
-				A74C406723B629E700356CA2 /* MainMenu.xib in Resources */,
+				A74C408923B6342C00356CA2 /* InteractionWindow.xib in Resources */,
+				A74C408C23B6342C00356CA2 /* MainMenu.xib in Resources */,
+				A74C408A23B6342C00356CA2 /* DescriptionInspectorWindow.xib in Resources */,
 				A74C406823B629E700356CA2 /* AccessibilityInspector.icns in Resources */,
+				A74C408B23B6342C00356CA2 /* InspectorWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +379,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74C40B523B6377F00356CA2 /* InteractionWindowController.m in Sources */,
+				A74C40B423B6377F00356CA2 /* InspectorWindowController.m in Sources */,
+				A74C40B823B6377F00356CA2 /* UIElementUtilities.m in Sources */,
+				A74C40BE23B63BA200356CA2 /* AXError+debugDescription.swift in Sources */,
+				A74C40B223B6377F00356CA2 /* HighlightWindowController.m in Sources */,
+				A74C40BB23B6377F00356CA2 /* DescriptionInspectorWindowController.m in Sources */,
+				A74C408023B62D3800356CA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +406,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A74C409B23B6348A00356CA2 /* InteractionWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74C409C23B6348A00356CA2 /* id */,
+			);
+			name = InteractionWindow.xib;
+			sourceTree = "<group>";
+		};
+		A74C409D23B6348A00356CA2 /* DescriptionInspectorWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74C409E23B6348A00356CA2 /* id */,
+			);
+			name = DescriptionInspectorWindow.xib;
+			sourceTree = "<group>";
+		};
+		A74C409F23B6348A00356CA2 /* InspectorWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74C40A023B6348A00356CA2 /* id */,
+			);
+			name = InspectorWindow.xib;
+			sourceTree = "<group>";
+		};
+		A74C40A123B6348A00356CA2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74C40A223B6348A00356CA2 /* id */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		A7C768AA23B5AAD7002CD05A /* InteractionWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -365,6 +493,7 @@
 		A74C405723B628DF00356CA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
@@ -378,14 +507,18 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Info-Swift.plist";
 				INSTALL_PATH = "$(SYSTEM_DEVELOPER_UTILITIES_DIR)/Accessibility Tools/";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.sample.UIElementInspector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -400,6 +533,7 @@
 		A74C405823B628DF00356CA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
@@ -410,14 +544,17 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Info-Swift.plist";
 				INSTALL_PATH = "$(SYSTEM_DEVELOPER_UTILITIES_DIR)/Accessibility Tools/";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.sample.UIElementInspector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Swift/Swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -508,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A74C405623B628DF00356CA2 /* Build configuration list for PBXNativeTarget "Swift" */ = {
+		A74C405623B628DF00356CA2 /* Build configuration list for PBXNativeTarget "SwiftApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A74C405723B628DF00356CA2 /* Debug */,
