@@ -28,7 +28,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private var interactionWindowController: InteractionWindowController? = nil
     private var highlightWindowController: HighlightWindowController? = nil
     
-    private lazy var systemWideElement: AXUIElement = { AXUIElementCreateSystemWide() }()
+    private lazy var systemWideElement = AXUIElementCreateSystemWide()
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
 //        #if USE_DESCRIPTION_INSPECTOR
@@ -48,22 +48,57 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateAXElementStatus), userInfo: nil, repeats: true)
     }
     
+    private lazy var lastPosition = NSEvent.mouseLocation
+    
+    private var prevElement: AXUIElement? {
+        didSet {
+            guard let el = prevElement else { return }
+            onElementUpdate(el)
+        }
+    }
+    
     @objc private func updateAXElementStatus() {
         let point = NSEvent.mouseLocation
+        
+        guard !NSEqualPoints(point, lastPosition) else { return }
+        defer { lastPosition = point }
+        
         let screenPoint = UIElementUtilities
             .carbonScreenPoint(fromCocoaScreenPoint: point)
-
         var element: AXUIElement?
         let err = AXUIElementCopyElementAtPosition(
             systemWideElement,
             Float(screenPoint.x),
             Float(screenPoint.y),
             &element)
-        if err == .success {
-            print(element!)
+        defer { prevElement = element }
+        // FIXME: Dont work yet
+        var isElementEqual: Bool { prevElement == nil ? false : element == nil ? false : CFEqual(element,prevElement) }
+        if err == .success, let el = element, !isElementEqual {
+            print(el)
         } else {
             print(err)
         }
     }
 
+    
+    private func onElementUpdate(_ element: AXUIElement) {
+        if let attr = UIElementUtilities
+            .value(ofAttribute: kAXValueAttribute, of: element) as? String {
+            print("ax.Value:",attr)
+        } else if let attr = UIElementUtilities
+            .value(ofAttribute: kAXTitleAttribute, of: element) as? String {
+            print("ax.Title:",attr)
+        } else if let attrs = UIElementUtilities
+            .attributeNames(of: element) as? [String] {
+            print("ax.Attributes.count",attrs.count)
+        }
+        
+    }
+}
+
+enum TranslatableAttribute {
+    case value(String)
+    case title(String)
+    case description(String)
 }
