@@ -123,7 +123,7 @@
 				A7C768BD23B5AAD7002CD05A /* AppDelegate.m */,
 				A7C768BA23B5AAD7002CD05A /* DescriptionInspectorWindowController.h */,
 				A7C768B923B5AAD7002CD05A /* DescriptionInspectorWindowController.m */,
-				A7C768A923B5AAD7002CD05A /* English.lproj */,
+				A7C768A923B5AAD7002CD05A /* en.lproj */,
 				A7C768A723B5AAD7002CD05A /* HighlightWindowController.h */,
 				A7C768B823B5AAD7002CD05A /* HighlightWindowController.m */,
 				A7C768B523B5AAD7002CD05A /* InspectorWindowController.h */,
@@ -137,7 +137,7 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		A7C768A923B5AAD7002CD05A /* English.lproj */ = {
+		A7C768A923B5AAD7002CD05A /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
 				A7C768AA23B5AAD7002CD05A /* InteractionWindow.xib */,
@@ -145,7 +145,7 @@
 				A7C768AE23B5AAD7002CD05A /* InspectorWindow.xib */,
 				A7C768B223B5AAD7002CD05A /* MainMenu.xib */,
 			);
-			path = English.lproj;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
