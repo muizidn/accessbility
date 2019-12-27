@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>UIElementInspector</string>
 	<key>CFBundleIconFile</key>
 	<string>AccessibilityInspector</string>
 	<key>CFBundleIdentifier</key>
@@ -23,7 +21,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.4</string>
 	<key>LSUIElement</key>
-	<string>1</string>
+	<string>YES</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

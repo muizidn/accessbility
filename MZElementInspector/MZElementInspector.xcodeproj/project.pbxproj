@@ -33,7 +33,7 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		5311616D0B5EE645008CDA8F /* Info-UIElementInspector.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-UIElementInspector.plist"; sourceTree = "<group>"; };
+		5311616D0B5EE645008CDA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53C06DBF0B5FD78200FB5821 /* UIElementInspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElementInspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C768A623B5AAD7002CD05A /* UIElementUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIElementUtilities.m; sourceTree = "<group>"; };
 		A7C768A723B5AAD7002CD05A /* HighlightWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighlightWindowController.h; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 				A7C768A523B5A985002CD05A /* Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				5311616D0B5EE645008CDA8F /* Info-UIElementInspector.plist */,
+				5311616D0B5EE645008CDA8F /* Info.plist */,
 			);
 			name = AccessibilityTesting;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-UIElementInspector.plist";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(SYSTEM_DEVELOPER_UTILITIES_DIR)/Accessibility Tools/";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
@@ -324,7 +324,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-UIElementInspector.plist";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(SYSTEM_DEVELOPER_UTILITIES_DIR)/Accessibility Tools/";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
