@@ -61,7 +61,7 @@
 #import "DescriptionInspectorWindowController.h"
 #import "HighlightWindowController.h"
 
-/* The Description Inspector was used in a WWDC 2010 demo.  When compiled with the description window, UIElementInspector displays a HUD window that displays only the AXDescription of an element in large type - handy for demo purposes.
+/* The Description Inspector was used in a WWDC 2010 demo.  When compiled with the description window, MZElementInspector displays a HUD window that displays only the AXDescription of an element in large type - handy for demo purposes.
 */
 #define USE_DESCRIPTION_INSPECTOR 0
 

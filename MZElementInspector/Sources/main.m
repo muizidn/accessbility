@@ -1,6 +1,6 @@
 /*
      File: main.m 
- Abstract: This is the main source file for UIElementInspector.
+ Abstract: This is the main source file for MZElementInspector.
  This sample demonstrates the Accessibility API introduced in Mac OS X 10.2.
   
   Version: 1.4 
